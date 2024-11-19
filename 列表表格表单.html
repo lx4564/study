@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>列表一</li>
+        <li>列表二</li>
+        <li>列表三</li>
+    </ul>
+    <!-- 无序列表 -->
+    <ol>
+        <li>列表一</li>
+        <li>列表二</li>
+        <li>列表三</li>
+    </ol>
+    <!-- 有序列表 -->
+     <dl>
+        <dt>列表标题</dt>
+        <dd>列表一</dd>
+        <dd>列表二</dd>
+     </dl>
+    <!-- 定义列表 -->
+    <table border="1">
+        <tr>
+            <th>姓名</th>
+            <th>语文</th>
+            <th>数学</th>
+            <th>总分</th>
+        </tr>
+        <tr>
+            <td>张三</th>
+            <td>90</td>
+            <td>80</td>
+            <td>170</td>
+        </tr>
+        <tr>
+            <td>李四</th>
+            <td>98</th>
+            <td>90</td>
+            <td>188</td>
+        </tr>
+        <tr>
+            <td>总结</td>
+            <td>全市第一</td>
+            <td>全市第二</td>
+            <td>全市第一</td>
+        </tr>
+    </table>
+    <!-- 表格 -->
+    <!-- border="1" 设置表格边框 -->
+    <!-- rowspan="2" 跨行设置单元格合并 -->
+    <!-- colspan="2" 跨列设置单元格合并，数字代表合并几个-->
+    文本框: <input type="text" placeholder="账号">
+    <!-- placeholder="账号" 设置提示文字 -->
+    <br>
+    密码框: <input type="password" placeholder="密码">
+    <!-- type="password" 密码输入框 -->
+    <br>
+    性别:
+    <label><input type="radio" name="gender" checked>男</label>
+    <label><input type="radio" name="gender">女</label>
+    <!-- radio是单选框，name="gender" 单选框组，意识是相同的name分为一组 -->
+    <!-- checked 默认选中状态 -->
+    <!-- label标签包裹单选框，可以设置文字说明 -->
+    <br>
+    多选框: <input type="checkbox">哈
+    <input type="checkbox" checked>基
+    <input type="checkbox">米
+    <!-- checkbox是多选框，checked默认选中状态 -->
+    <br>
+    上传文件: <input type="file" multiple>
+    <!-- multiple 多文件上传 -->
+    <br>
+    城市
+    <select>
+        <option>北京</option>
+        <option>上海</option>
+        <option>广州</option>
+        <option>深圳</option>
+        <option selected>平顶山</option>
+    </select>
+    <!-- select下拉框，option选项，selected默认选中状态 -->
+    <br>
+    <form action="">
+        <textarea>这里是多行文本框，可以输入多行内容</textarea>
+        <br>
+        <button type="submit">提交</button>
+        <!-- submit提交按钮 -->
+        <br>
+        <button type="reset">重置</button>
+        <!-- reset重置按钮，需要绑定表单 -->
+        <br>
+        <button type="button">普通按钮</button>
+        <!-- button按钮 -->
+    </form>
+    <!-- form表单可包含重置按钮进行重置，action提交地址，method提交方式，enctype编码类型 -->
+    <div>这是div标签</div>
+    <div>这是div标签</div>
+    <span>这是span标签</span>
+    <span>这是span标签</span>
+    <!-- div和span标签没有语义，只是用来布局，div块级元素，span内联元素 -->
+    <br>
+    字符实体例如空格&nbsp;小于号&lt;大于号&gt;
+
+</body>
+</html>
