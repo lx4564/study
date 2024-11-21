@@ -1,0 +1,76 @@
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+#yellow {
+    color: yellow;
+    }
+#blue {
+    color: blue;
+}
+/* .开头的为类选择器，使用class属性来选择，#开头的为ID选择器，使用id属性来选择，且id只能有一个，不能重复 */
+
+
+/* * { */
+    /* color: beige; */
+/* } */
+/* 通配符选择器，选择所有元素，并设置其颜色为beige */
+/* 通配符一般在消除浏览器默认样式时使用，即行间距、字体大小等 */
+.size {
+    font-size: 30px;
+}
+/* 设置字体大小为30px */
+.weight {
+    font-weight: 700;
+}
+/* 设置字体加粗 */
+.unweight {
+    font-weight: 400;
+}
+/* 取消字体加粗 */
+.style {
+    font-style: italic;
+}
+/* 设置字体为斜体 */
+.unstyle {
+    font-style: normal;
+}
+/* 取消字体斜体 */
+.height {
+    line-height: 1.5;
+}
+/* 设置行间距为1.5倍 或者属性值为30px，意思是直接设置字体的高度为30px */
+.family {
+    font-family: Arial, sans-serif;
+}
+/* 设置字体为Arial，如果浏览器不支持Arial，则使用sans-serif(是一个无衬线字体族) */
+div {
+    font: italic 700 16px/1.5 Arial, sans-serif;
+}
+/* 统一设置设置div元素的字体为斜体、加粗、字体大小为16px、行间距为1.5倍、字体为Arial，如果浏览器不支持Arial，则使用sans-serif,要按顺序写 */
+.indent {
+    text-indent: 2em;
+}
+/* 设置首行缩进为2em，em是字体大小的单位，2em表示2倍的字体大小 */
+.align {
+    text-align: center;
+}
+/* 设置文本居中 */
+.left {
+    text-align: left;
+}
+/* 设置文本左对齐 */
+.right {
+    text-align: right;
+}
+/* 设置文本右对齐 */
+.decoration {
+    text-decoration: underline;
+}
+/* 设置文本下划线 */
+.undecoration {
+    text-decoration: none;
+}
+/* 取消文本下划线 */
