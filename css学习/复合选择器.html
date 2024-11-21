@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div span {
+            color: red;
+        }
+        /* 后代选择器，选择所有div元素的span元素 */
+        p.box {
+            color: green;
+        }
+        /* 交集选择器，同时满足两个条件才行 */
+        span {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>测试文字</span>
+    </div>
+    <span>测试文字2</span>
+    <p>测试文字3</p>
+    <p class="box">测试文字5</div>
+</body>
+</html>
