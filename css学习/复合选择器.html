@@ -21,6 +21,23 @@
         }
         /* 伪类选择器，鼠标悬停时文字颜色变黄色 */
         /* 超链接伪类:link访问前, :visited访问后, :hover鼠标悬停, :active点击时 */
+        li:first-child {
+            background: red !important;
+        }
+        /* 子元素选择器，选择第一个li元素 */
+        li:last-child {
+            background: green;
+        }
+        /* 子元素选择器，选择最后一个li元素 */  
+        li:nth-child(4) {
+            background: blue;
+        }
+        /* 子元素选择器，选择第四个li元素 */
+        li:nth-child(2n+1) {
+            background: yellow;
+        }
+        /* 子元素选择器，选择奇数个li元素 */
+        
     </style>
 </head>
 <body>
@@ -31,5 +48,13 @@
     <p>测试文字3</p>
     <p class="box">测试文字5</div>
     <a href="#">鼠标悬停测试</a>
+    <ul>
+        <li>li 1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
 </body>
 </html>
